@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>О игре Noita</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Об игре</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Об игре</a>
+      <a href="tips.html">Советы</a>
+    </nav>
+  </header>
+
+  <main>
+    <p><strong>Noita</strong> — это roguelike-игра с элементами симуляции, в которой каждый пиксель имеет значение. Используйте мощные заклинания, чтобы уничтожать врагов и изменять окружение.</p>
+    <ul>
+      <li>Жанр: Рогалик / Песочница</li>
+      <li>Разработчик: Nolla Games</li>
+      <li>Год выхода: 2020</li>
+    </ul>
+  </main>
+
+  <footer>
+    <p>© 2025 Noita Fan Site</p>
+  </footer>
+</body>
+</html>
