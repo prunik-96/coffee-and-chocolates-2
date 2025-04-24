@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Советы по игре</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Советы для новичков</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Об игре</a>
+      <a href="tips.html">Советы</a>
+    </nav>
+  </header>
+
+  <main>
+    <ol>
+      <li>Осторожно с физикой — огонь и кислота могут убить за секунду!</li>
+      <li>Проверяй жезлы перед использованием — некоторые очень нестабильны.</li>
+      <li>Не забывай использовать флаконы — ты можешь носить с собой воду, мёд, лаву и т.п.</li>
+      <li>Экспериментируй с комбинациями заклинаний — крафт в Noita очень гибкий.</li>
+    </ol>
+  </main>
+
+  <footer>
+    <p>© 2025 Noita Fan Site</p>
+  </footer>
+</body>
+</html>
