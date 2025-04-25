@@ -4,48 +4,87 @@
   <meta charset="UTF-8">
   <title>О игре Noita</title>
   <link rel="stylesheet" href="style.css">
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      background-color: #1e1e1e;
+      color: #f0f0f0;
+    }
+
+    header {
+      background-color: #2d2d2d;
+      padding: 20px;
+      text-align: center;
+      border-bottom: 2px solid #444;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #ffcc00;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 20px;
+      background-color: #2a2a2a;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.6);
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+    }
+
+    ul li::before {
+      content: "• ";
+      color: #ffcc00;
+    }
+
+    footer {
+      background-color: #2d2d2d;
+      text-align: center;
+      padding: 15px;
+      font-size: 0.9em;
+      border-top: 2px solid #444;
+    }
+  </style>
 </head>
 <body>
-  <div class="container">
-    <aside class="sidebar">
-      <h2>Навигация</h2>
-      <nav>
-        <ul>
-          <li><a href="index.html">🏠 Главная</a></li>
-          <li><a href="about.html">📖 Об игре</a></li>
-          <li><a href="tips.html">💡 Советы</a></li>
-        </ul>
-      </nav>
-    </aside>
+  <header>
+    <h1>Об игре</h1>
+    <nav>
+      <a href="index.html">Главная</a>
+      <a href="about.html">Об игре</a>
+      <a href="tips.html">Советы</a>
+    </nav>
+  </header>
 
-    <main class="content">
-      <header>
-        <h1>Noita</h1>
-        <p><em>Рогалик, в котором каждый пиксель подчиняется физике</em></p>
-      </header>
-
-      <section>
-        <p><strong>Noita</strong> — это roguelike-игра с элементами симуляции, в которой каждый пиксель имеет значение. 
-          Используйте мощные заклинания, чтобы уничтожать врагов и изменять окружение.
-        </p>
-
-        <table class="info-table">
-          <tr>
-            <th>Жанр</th>
-            <td>Рогалик / Песочница</td>
-          </tr>
-          <tr>
-            <th>Разработчик</th>
-            <td>Nolla Games</td>
-          </tr>
-          <tr>
-            <th>Год выхода</th>
-            <td>2020</td>
-          </tr>
-        </table>
-      </section>
-    </main>
-  </div>
+  <main>
+    <p><strong>Noita</strong> — это roguelike-игра с элементами симуляции, в которой каждый пиксель имеет значение. Используйте мощные заклинания, чтобы уничтожать врагов и изменять окружение.</p>
+    <ul>
+      <li>Жанр: Рогалик / Песочница</li>
+      <li>Разработчик: Nolla Games</li>
+      <li>Год выхода: 2020</li>
+    </ul>
+  </main>
 
   <footer>
     <p>© 2025 Noita Fan Site</p>
